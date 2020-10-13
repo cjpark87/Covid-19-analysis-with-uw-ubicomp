@@ -7,4 +7,4 @@ Within the counties that implemented shelter in place order, why did some counti
 
 2020-10-13:
 
-Using standardized linear regression and increase of R^2 analysis, found that **Median Household Income** increases the explanatory of the model by **50%** when it is included in the model! ![see the notebook here](https://github.com/wenjunsun/Covid-19-analysis-with-uw-ubicomp/blob/master/2020-10/standardized_linear_regression.ipynb)
+Using standardized linear regression and increase of R^2 analysis, found that **Median Household Income** increases the explanatory of the model by **50%** when it is included in the model! [see the notebook here](https://github.com/wenjunsun/Covid-19-analysis-with-uw-ubicomp/blob/master/2020-10/standardized_linear_regression.ipynb)
