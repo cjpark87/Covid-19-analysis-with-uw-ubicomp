@@ -23,3 +23,7 @@ Using standardized linear regression and increase of R^2 analysis, found that **
 | 1    | 0.0309015            | 0.0009284685   |
  
  - glass dealta = `0.40`. This means we can say that having done shelter in place, counties increased the completely stay at home percentage of people by 0.4 standard deviations
+
+2020-11-4: [see the notebook here](https://github.com/wenjunsun/Covid-19-analysis-with-uw-ubicomp/blob/master/2020-11/GBM_and_RF_as_propensity_model.ipynb)
+- random forest doesn terribly on propensity score prediction, as the balance scores are above `0.25` for some covariates.
+- gradient boosting machine does better on balance scores than logistic regression, but lacks common support of propensity score distribution. The effect size is about `0.93%`, which is not way off our results before.
