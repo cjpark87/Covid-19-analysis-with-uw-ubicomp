@@ -27,3 +27,6 @@ Using standardized linear regression and increase of R^2 analysis, found that **
 2020-11-4: [see the notebook here](https://github.com/wenjunsun/Covid-19-analysis-with-uw-ubicomp/blob/master/2020-11/GBM_and_RF_as_propensity_model.ipynb)
 - random forest does terribly on propensity score prediction, as the balance scores are above `0.25` for some covariates.
 - gradient boosting machine does better on balance scores than logistic regression, but lacks common support of propensity score distribution. The treatment effect size is about `0.93%`, which is not way off our results before.
+
+2020-11-5: [see the notebook here](https://github.com/wenjunsun/Covid-19-analysis-with-uw-ubicomp/blob/master/2020-11/doubly_robust_estimation.ipynb)
+- used doubly robust estimation of treatment effect with propensity score weighing. The result is consistent with our past results. effect size is about `1.19%`
